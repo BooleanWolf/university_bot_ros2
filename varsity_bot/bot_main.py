@@ -47,6 +47,7 @@ class GuiApp:
         self.btn.pack(padx=20, pady=20) 
 
     def btn_press(self):
+        # This is changeable
         usr_input = self.entry.get() 
 
         if usr_input == "":
